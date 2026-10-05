@@ -61,4 +61,10 @@ ggplot(bond.data, aes(x=BJB, y=US_Adj)) +
 It seems the movies earn more if he says it 0 or 2 times?
 Probably a spurious correlation!
 
+```{r}
+ggplot(bond.data, aes(x=Bond, y=US_Adj)) + 
+  geom_point(colour="purple")
+  
+```
+
 # 
